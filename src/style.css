@@ -5,14 +5,20 @@
     padding: 0;
 }
 
+#root {
+
+    width: 100vw;
+    margin: auto;
+}
+
+
 nav {
 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F55A5A;
-    flex-basis: 100%;
-    height: 55px;
+    height: 10vh;
     color: #fff;
 
 }
@@ -26,5 +32,33 @@ nav p {
 nav .nav--eartIcon {
 
     font-size: 1.5rem;
+
+}
+
+.card {
+
+    display: flex;
+    padding-top: 8vh;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+
+.card .card--content {
+
+    padding-left: 20px;
+    padding-top: 3vh;
+    flex-basis: 75%;
+
+
+}
+
+.card--country {}
+
+.card--image {
+
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
 
 }

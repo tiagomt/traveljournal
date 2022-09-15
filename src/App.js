@@ -2,17 +2,37 @@ import React from "react";
 import NavBar from "./components/Nav";
 import TravelCard from "./components/Card";
 import './style.css'
+import data from "./data";
 
-function App() {
+
+export default function App() {
+
+  const dataTravel = data.map(destiny => {
+
+
+    return (
+
+      <TravelCard
+
+        {...destiny}
+      // dadoos={destiny}
+
+
+      />
+
+    )
+
+  })
+
 
   return (
     <div>
       <NavBar />
-      <h1>Testando</h1>
-      <TravelCard />
+
+      {/* Para cada elemento do array, será gerado um "destiny" */}
+      {dataTravel}
     </div>
   )
 
 }
 
-export default App;

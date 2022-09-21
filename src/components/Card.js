@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 function TravelCard(props) {
 
@@ -9,17 +11,19 @@ function TravelCard(props) {
             <img src={props.imageUrl} alt="" className="card--image" />
 
             <div className="card--content">
+                <FontAwesomeIcon icon={faLocationDot} className="nav--locationIcon" />
+
                 <span className="card--country">{props.location}</span>
 
-                <span>View on Google Maps</span>
+                <span className="card--googleMaps">View on Google Maps</span>
 
-                <h1>{props.title}</h1>
+                <h1 className="card--title">{props.title}</h1>
 
-                <span>{props.startDate} - </span>
-                <span>{props.endDate}</span>
+                <span className="startDate card--dates">{props.startDate} - </span>
+                <span className="endDate card--dates">{props.endDate}</span>
 
 
-                <p>{props.description}</p>
+                <p className="card--description">{props.description}</p>
             </div>
 
             {/* <p>{props.destiny.title}</p> */}

@@ -40,25 +40,71 @@ nav .nav--eartIcon {
     display: flex;
     padding-top: 8vh;
     justify-content: center;
-    /* background-color: aqua; */
+    font-family: 'Inter', sans-serif;
 }
 
 
 .card .card--content {
 
     padding-left: 20px;
-    padding-top: 3vh;
+    padding-top: 8vh;
     flex-basis: 75%;
+    max-width: 70vw;
+    justify-content: center;
 
 
 }
 
-.card--country {}
+.card--country {
+
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+
+}
+
+.card--googleMaps {
+
+    /* display: block; */
+    padding-left: 2vw;
+    text-decoration: underline;
+    color: #918E9B;
+
+}
 
 .card--image {
 
-    height: 168px;
-    width: 125px;
+    /* height: 168px;
+    width: 125px; */
+    height: 32vh;
+    width: 13vw;
     border-radius: 5px;
+    margin-top: 5vh;
+
+}
+
+.card--title {
+
+    font-weight: 700;
+    padding-bottom: 2vh;
+}
+
+.card--dates {
+
+    font-weight: 700;
+    line-height: 12px;
+
+}
+
+.card--description {
+
+    font-weight: 400;
+    padding-top: 2vh;
+
+}
+
+.nav--locationIcon {
+
+    color: #f00;
+    padding-right: 1vh;
 
 }

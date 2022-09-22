@@ -26,12 +26,13 @@ nav {
 nav p {
 
     margin-left: 1vw;
+    font-size: 2em;
 
 }
 
 nav .nav--eartIcon {
 
-    font-size: 1.5rem;
+    font-size: 2em;
 
 }
 
@@ -79,6 +80,7 @@ nav .nav--eartIcon {
     width: 13vw;
     border-radius: 5px;
     margin-top: 5vh;
+    box-shadow: 1px 1px 5px #000;
 
 }
 
@@ -97,6 +99,7 @@ nav .nav--eartIcon {
 
 .card--description {
 
+    font-size: 1.2em;
     font-weight: 400;
     padding-top: 2vh;
 

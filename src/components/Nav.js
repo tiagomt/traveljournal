@@ -9,7 +9,7 @@ function NavBar() {
         <nav>
             {/* <FontAwesomeIcon icon="fa-solid fa-earth-europe" /> */}
             <FontAwesomeIcon icon={faEarthEurope} className="nav--eartIcon" />
-            <FontAwesomeIcon icon={faLocationDot} className="nav--locationIcon" />
+            {/* <FontAwesomeIcon icon={faLocationDot} className="nav--locationIcon" /> */}
 
             <p>My Travel Journal</p>
 
